@@ -1,5 +1,5 @@
 #4)შექმენით ორი ცვლადი სადაც შეინახავთ ინტეჯერებს, შექმენით მესამე ცვლადი სადაც შეინახავთ მათ ნამრავლს და დაპრინტე
-number = 45
-NUMBER = 32
-NUMBER=number= 32 * 45
-print(number * NUMBER)
+user = "sandro"
+age = 13 
+surname = user*age 
+print(surname)
