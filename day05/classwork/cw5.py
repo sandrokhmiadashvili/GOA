@@ -1,7 +1,9 @@
 #6)რას გამოიტანს შემდეგი კოდი:
-name = "giorgi"
-print(name)
-name = "vano"
-Name = "nika"
-NAME = "saba"
-print(Name)
+#name = "giorgi"
+#print(name)
+#name = "vano"
+#Name = "nika"
+#NAME = "saba"
+#print(Name)
+#1.გამოიტანს გიორგის და არა ვანოს რადგან ვანომდე პრინტი იყო დაწერილი
+#2.მეორეში კი ნიკას რადგან პრინტში ნიკას ცვლადია მოთავსებული
