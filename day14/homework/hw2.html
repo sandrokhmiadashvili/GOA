@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>ბანკის სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+
+    <h2>ბანკის სარეგისტრაციო ფორმა</h2>
+
+    <form>
+
+        <!-- სახელი -->
+        <label for="firstname">სახელი:</label><br>
+        <input type="text" id="firstname" name="firstname" value=""><br><br>
+
+        <!-- გვარი -->
+        <label for="lastname">გვარი:</label><br>
+        <input type="text" id="lastname" name="lastname" value=""><br><br>
+
+        <!-- მეილი -->
+        <label for="email">მეილი:</label><br>
+        <input type="email" id="email" name="email" value=""><br><br>
+
+        <!-- თანხის რაოდენობა -->
+        <label for="amount">თანხის რაოდენობა:</label><br>
+        <input type="number" id="amount" name="amount" value=""><br><br>
+
+        <!-- სქესი (radio buttons) -->
+        <p>სქესი:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">მამრობითი</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">მდედრობითი</label><br><br>
+
+        <!-- ვალუტის არჩევა (dropdown menu) -->
+        <label for="currency">ვალუტის არჩევა:</label><br>
+        <select id="currency" name="currency">
+            <option value="" selected disabled>Select currency</option>
+            <option value="gel">ლარი</option>
+            <option value="usd">დოლარი</option>
+            <option value="eur">ევრო</option>
+            <option value="gbp">ფუნტი</option>
+        </select><br><br>
+
+        <!-- გაგზავნის ღილაკი -->
+        <input type="submit" value="რეგისტრაცია">
+
+    </form>
+
+</body>
+</html>
