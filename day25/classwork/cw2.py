@@ -1,4 +1,4 @@
-word = "lesson"
+def sum_of_3(a, b, c):
+    return a + b + c
 
-for letter in word:
-    print(letter)
+print(sum_of_3(2, 6, 9))

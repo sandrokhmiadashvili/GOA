@@ -1,9 +1,4 @@
+def average(lst):
+    return sum(lst) / len(lst)
 
-list = ["a", "b", "c", "d", "e"]
-
-
-user = input("შეიყვანეთ რაიმე სტრინგი: ")
-
-list.insert(4, user)
-
-print("განახლებული სია:", list)
+print(average([7, 4, 6, 9]))

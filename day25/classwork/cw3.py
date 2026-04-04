@@ -1,4 +1,4 @@
-i = 2
-while i <= 25:
-    print(i)
-    i += 3
+def count(a):
+    return len(a)
+
+print(count([1, 2, 3, 4]))
