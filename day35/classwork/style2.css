@@ -1,0 +1,17 @@
+.main-list {
+    list-style-type: circle;
+}
+
+.sub-list {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+
+.my-list {
+    list-style-type: upper-roman;
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px;
+}
